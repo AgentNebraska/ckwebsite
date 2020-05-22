@@ -6,8 +6,6 @@ nav {
   }
 }
 
-
-
 #homeDisplay {
   position: relative;
   width: 100%;
@@ -26,8 +24,23 @@ nav {
     position: absolute;
     top: 32px;
     left: 32px;
-    img {
-      width: 200px;
+
+    @media (min-width: 1120px) {
+      img {
+        width: 200px
+      }
+    }
+
+    @media (min-width: 590px) and(max-width: 1119px) {
+      img {
+        width: 100px;
+      }
+    }
+
+    @media (max-width: 589px) {
+      img {
+        width: 75px;
+      }
     }
   }
 
@@ -38,10 +51,62 @@ nav {
     transform: translate(-50%, -50%);
   }
 
-  h1, h2 {
-    color:  white;
-    font-family: 'Fjalla One', sans-serif;
-    font-weight: bold;
-    font-kerning: 50px;
+  @media (max-width: 589px) {
+    h1, h2 {
+      color:  white;
+      font-family: 'Fjalla One', sans-serif;
+      font-weight: bold;
+      font-kerning: 50px;
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 590px) and (max-width: 700px) {
+    h1, h2 {
+      color:  white;
+      font-family: 'Fjalla One', sans-serif;
+      font-weight: bold;
+      font-kerning: 50px;
+      font-size: 24px;
+    }
+  }
+
+  @media (min-width: 701px) and (max-width: 930px) {
+    h1, h2 {
+      color:  white;
+      font-family: 'Fjalla One', sans-serif;
+      font-weight: bold;
+      font-kerning: 50px;
+      font-size: 36px;
+    }
+  }
+
+  @media (min-width: 931px) and (max-width: 1300px) {
+    h1, h2 {
+      color:  white;
+      font-family: 'Fjalla One', sans-serif;
+      font-weight: bold;
+      font-kerning: 50px;
+      font-size: 48px;
+    }
+  }
+
+  @media (min-width: 1301px) and (max-width: 1749px) {
+    h1, h2 {
+      color:  white;
+      font-family: 'Fjalla One', sans-serif;
+      font-weight: bold;
+      font-kerning: 50px;
+      font-size: 60px;
+    }
+  }
+  @media (min-width: 1750px) {
+    h1, h2 {
+      color:  white;
+      font-family: 'Fjalla One', sans-serif;
+      font-weight: bold;
+      font-kerning: 50px;
+      font-size: 72px;
+    }
   }
 }
