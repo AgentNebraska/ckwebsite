@@ -1,5 +1,43 @@
-h1 {
-  color: blue;
+nav {
+  background-color: #1cae4f;
+}
+nav img {
+  width: 120px;
+  height: 120px;
+}
+
+#homeDisplay {
+  position: relative;
+  width: 100%;
+  height: 40vw;
+  text-align: center;
+}
+#homeDisplay #homeDisplayBackground {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 70%;
+  filter: brightness(50%);
+}
+#homeDisplay .top-left {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+#homeDisplay .top-left img {
+  width: 200px;
+}
+#homeDisplay .centeredText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#homeDisplay h1, #homeDisplay h2 {
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: bold;
+  font-kerning: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
