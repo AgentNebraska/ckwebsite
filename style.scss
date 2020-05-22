@@ -1,5 +1,4 @@
 nav {
-  background-color: #1cae4f;
   img {
     width: 120px;
     height: 120px;
@@ -31,7 +30,7 @@ nav {
       }
     }
 
-    @media (min-width: 590px) and(max-width: 1119px) {
+    @media (min-width: 590px) and (max-width: 1119px) {
       img {
         width: 100px;
       }
@@ -51,62 +50,22 @@ nav {
     transform: translate(-50%, -50%);
   }
 
-  @media (max-width: 589px) {
-    h1, h2 {
-      color:  white;
-      font-family: 'Fjalla One', sans-serif;
-      font-weight: bold;
-      font-kerning: 50px;
+  h1, h2 {
+    color:  white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+  }
+
+  @media (max-width: 650px) {
+    h1 {
       font-size: 18px;
     }
+    h2 {
+      font-size: 12px;
+    }
   }
+}
 
-  @media (min-width: 590px) and (max-width: 700px) {
-    h1, h2 {
-      color:  white;
-      font-family: 'Fjalla One', sans-serif;
-      font-weight: bold;
-      font-kerning: 50px;
-      font-size: 24px;
-    }
-  }
-
-  @media (min-width: 701px) and (max-width: 930px) {
-    h1, h2 {
-      color:  white;
-      font-family: 'Fjalla One', sans-serif;
-      font-weight: bold;
-      font-kerning: 50px;
-      font-size: 36px;
-    }
-  }
-
-  @media (min-width: 931px) and (max-width: 1300px) {
-    h1, h2 {
-      color:  white;
-      font-family: 'Fjalla One', sans-serif;
-      font-weight: bold;
-      font-kerning: 50px;
-      font-size: 48px;
-    }
-  }
-
-  @media (min-width: 1301px) and (max-width: 1749px) {
-    h1, h2 {
-      color:  white;
-      font-family: 'Fjalla One', sans-serif;
-      font-weight: bold;
-      font-kerning: 50px;
-      font-size: 60px;
-    }
-  }
-  @media (min-width: 1750px) {
-    h1, h2 {
-      color:  white;
-      font-family: 'Fjalla One', sans-serif;
-      font-weight: bold;
-      font-kerning: 50px;
-      font-size: 72px;
-    }
-  }
+.questionWord {
+  font-size: 18px;
 }
