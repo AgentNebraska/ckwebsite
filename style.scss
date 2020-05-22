@@ -13,7 +13,7 @@ iframe {
   background-color: #03464f;
 }
 
-.homeIntro {
+.homeHeading {
     color: #1cae4f;
     font-weight: bold;
     margin-top: 40px;
@@ -40,6 +40,7 @@ iframe {
 
 #homeText {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 #homeDisplay {
@@ -117,6 +118,9 @@ iframe {
       font-size: 12px;
     }
   }
+}
+#flyers {
+  margin-bottom: 40px;
 }
 
 #footer {
