@@ -109,6 +109,9 @@ iframe {
 #flyers {
   margin-bottom: 40px;
 }
+#flyers .col-md {
+  margin: 20px;
+}
 
 #footer {
   color: #4a4748;

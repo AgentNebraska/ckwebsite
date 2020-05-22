@@ -119,8 +119,12 @@ iframe {
     }
   }
 }
+
 #flyers {
   margin-bottom: 40px;
+  .col-md {
+    margin: 20px;
+  }
 }
 
 #footer {
