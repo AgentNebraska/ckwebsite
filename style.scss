@@ -101,9 +101,12 @@ iframe {
 }
 
 #footer {
-  color: #03464f;
+  color: #4a4748;
   text-align: center;
   background-color: #F3F3F3;
+  .col-md {
+    padding: 20px;
+  }
   h4 {
     font-size: 1.5em;
   }

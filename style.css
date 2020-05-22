@@ -90,9 +90,14 @@ iframe {
 }
 
 #footer {
-  color: #03464f;
+  color: #4a4748;
   text-align: center;
   background-color: #F3F3F3;
+  border-width: 5px;
+  border-color: #4a4748;
+}
+#footer .col-md {
+  padding: 20px;
 }
 #footer h4 {
   font-size: 1.5em;
