@@ -118,11 +118,14 @@ iframe {
   text-align: center;
   background-color: #F3F3F3;
 }
+#footer h4 {
+  font-size: 1.5em;
+}
 #footer .col-md {
   padding: 20px;
 }
-#footer h4 {
-  font-size: 1.5em;
+#footer .socialmedia {
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
