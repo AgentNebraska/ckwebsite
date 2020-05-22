@@ -10,6 +10,20 @@ iframe {
   background-color: #03464f;
 }
 
+.questionWord {
+  font-size: 18px;
+}
+
+.bodyText {
+  padding-top: 20px;
+  color: #03464f;
+}
+
+.footerSpace {
+  width: 100vw;
+  background-color: #F3F3F3;
+}
+
 #volunteerLink {
   color: #1cae4f;
 }
@@ -75,13 +89,13 @@ iframe {
   }
 }
 
-.questionWord {
-  font-size: 18px;
-}
-
-.bodyText {
-  padding-top: 20px;
+#footer {
   color: #03464f;
+  text-align: center;
+  background-color: #F3F3F3;
+}
+#footer h4 {
+  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
