@@ -10,6 +10,13 @@ iframe {
   background-color: #03464f;
 }
 
+.homeIntro {
+  color: #1cae4f;
+  font-weight: bold;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
 .questionWord {
   font-size: 18px;
 }
@@ -28,18 +35,27 @@ iframe {
   color: #1cae4f;
 }
 
+#homeText {
+  text-align: center;
+}
+
 #homeDisplay {
   position: relative;
   width: 100%;
   height: 40vw;
   text-align: center;
 }
-#homeDisplay #homeDisplayBackground {
+#homeDisplay #homeDisplayBackground, #homeDisplay #ourteamDisplayBackground {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 0 70%;
   filter: brightness(50%);
+}
+#homeDisplay #homeDisplayBackground {
+  object-position: 0 70%;
+}
+#homeDisplay #ourteamDisplayBackground {
+  object-position: 0 0%;
 }
 #homeDisplay .top-left {
   left: 32px;
@@ -93,8 +109,6 @@ iframe {
   color: #4a4748;
   text-align: center;
   background-color: #F3F3F3;
-  border-width: 5px;
-  border-color: #4a4748;
 }
 #footer .col-md {
   padding: 20px;
