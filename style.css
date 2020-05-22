@@ -28,23 +28,31 @@ iframe {
   filter: brightness(50%);
 }
 #homeDisplay .top-left {
-  position: absolute;
-  top: 32px;
   left: 32px;
 }
+#homeDisplay .top-right {
+  right: 32px;
+}
+#homeDisplay .top-left, #homeDisplay .top-right {
+  position: absolute;
+  top: 32px;
+}
 @media (min-width: 1120px) {
-  #homeDisplay .top-left img {
-    width: 200px;
+  #homeDisplay .top-left img, #homeDisplay .top-right img {
+    width: 300px;
   }
 }
 @media (min-width: 590px) and (max-width: 1119px) {
-  #homeDisplay .top-left img {
-    width: 100px;
+  #homeDisplay .top-left img, #homeDisplay .top-right img {
+    width: 150px;
   }
 }
 @media (max-width: 589px) {
-  #homeDisplay .top-left img {
-    width: 75px;
+  #homeDisplay .top-left img, #homeDisplay .top-right img {
+    width: 113px;
+  }
+  #homeDisplay .top-right {
+    right: 16px;
   }
 }
 #homeDisplay .centeredText {
