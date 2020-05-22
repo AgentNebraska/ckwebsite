@@ -3,6 +3,17 @@ nav img {
   height: 120px;
 }
 
+iframe {
+  padding: 5px;
+  margin-top: 30px;
+  background-color: #03464f;
+}
+
+#volunteerLink {
+  color: #1cae4f;
+  font-weight: bold;
+}
+
 #homeDisplay {
   position: relative;
   width: 100%;
@@ -63,12 +74,6 @@ nav img {
 .bodyText {
   padding-top: 20px;
   color: #03464f;
-}
-
-iframe {
-  padding: 5px;
-  margin-top: 30px;
-  background-color: #03464f;
 }
 
 /*# sourceMappingURL=style.css.map */
