@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 nav img {
   width: 120px;
   height: 120px;
@@ -54,7 +55,7 @@ iframe {
 }
 #homeDisplay h1, #homeDisplay h2 {
   color: white;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: bold;
 }
 @media (max-width: 650px) {
