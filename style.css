@@ -27,12 +27,23 @@ iframe {
 }
 
 .footerSpace {
+  margin-top: 40px;
   width: 100vw;
   background-color: #F3F3F3;
 }
 
 .col-md img {
   width: 100%;
+}
+
+.eventTitle {
+  color: #03464f;
+  margin-top: 20px;
+}
+
+.eventPic {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #volunteerLink {
