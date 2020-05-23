@@ -20,6 +20,10 @@ iframe {
     letter-spacing: 2px;
 }
 
+.footerHeading {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
 .questionWord {
   font-size: 18px;
 }
@@ -38,6 +42,27 @@ iframe {
   img {
     width: 100%;
     // border:2px solid #03464f;
+  }
+}
+
+.footerMidBorder {
+  // transform: translateX(15%);
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .footerMid {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+  }
+}
+
+@media (min-width: 768px) {
+  .footerMidBorder {
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
   }
 }
 
@@ -145,8 +170,8 @@ iframe {
 }
 
 #footer {
-  color: #4a4748;
   text-align: center;
+  color: #4a4748;
   background-color: #F3F3F3;
 
   h4 {
@@ -161,6 +186,6 @@ iframe {
   }
 
   .socialmedia {
-    margin: 20px;
+    margin: 10px;
   }
 }
