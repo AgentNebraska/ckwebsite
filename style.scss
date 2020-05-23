@@ -131,11 +131,16 @@ iframe {
   color: #4a4748;
   text-align: center;
   background-color: #F3F3F3;
+
   h4 {
     font-size: 1.5em;
   }
+
   .col-md {
     padding: 20px;
+    a {
+      text-align: center;
+    }
   }
 
   .socialmedia {

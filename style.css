@@ -124,6 +124,9 @@ iframe {
 #footer .col-md {
   padding: 20px;
 }
+#footer .col-md a {
+  text-align: center;
+}
 #footer .socialmedia {
   margin: 20px;
 }
