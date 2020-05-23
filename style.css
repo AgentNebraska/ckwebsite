@@ -84,17 +84,21 @@ iframe {
   height: 40vw;
   text-align: center;
 }
-#homeDisplay #homeDisplayBackground, #homeDisplay #ourteamDisplayBackground {
+#homeDisplay #homeDisplayBackground, #homeDisplay #ourteamDisplayBackground, #homeDisplay #ourclientsDisplayBackground {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(50%);
 }
 #homeDisplay #homeDisplayBackground {
   object-position: 0 70%;
+  filter: brightness(50%);
 }
 #homeDisplay #ourteamDisplayBackground {
   object-position: 0 0%;
+  filter: brightness(50%);
+}
+#homeDisplay #ourclientsDisplayBackground {
+  filter: brightness(60%);
 }
 #homeDisplay .top-left {
   left: 32px;
