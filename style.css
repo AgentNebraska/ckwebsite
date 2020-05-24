@@ -81,6 +81,12 @@ iframe {
   margin-bottom: 20px;
 }
 
+.LTtitle {
+  color: #03464f;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
 #volunteerLink {
   color: #1cae4f;
 }
