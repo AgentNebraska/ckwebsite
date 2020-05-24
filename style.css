@@ -83,8 +83,7 @@ iframe {
 
 .LTtitle {
   color: #03464f;
-  margin-top: 40px;
-  letter-spacing: 2px;
+  font-style: italic;
 }
 
 #volunteerLink {
