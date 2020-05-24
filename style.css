@@ -17,6 +17,18 @@ iframe {
   letter-spacing: 2px;
 }
 
+.homeHeading-2 {
+  color: #03464f;
+  font-weight: bold;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
+.homeText {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .footerHeading {
   font-weight: bold;
   letter-spacing: 2px;
@@ -71,11 +83,6 @@ iframe {
 
 #volunteerLink {
   color: #1cae4f;
-}
-
-#homeText {
-  text-align: center;
-  margin-bottom: 40px;
 }
 
 #homeDisplay {
