@@ -76,14 +76,26 @@ iframe {
     border-left: 1px solid lightgray;
   }
 }
-.eventTitle {
-  color: #03464f;
-  margin-top: 20px;
+.img-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.eventPic {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.img-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.img-wrap:hover .img-description {
+  visibility: visible;
+  opacity: 1;
 }
 
 .LTtitle {
