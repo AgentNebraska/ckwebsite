@@ -76,23 +76,6 @@ iframe {
   }
 }
 
-@media (min-width: 768px) {
-  .footerMidBorder {
-    border-right: 1px solid lightgray;
-    border-left: 1px solid lightgray;
-  }
-}
-
-// .eventTitle {
-//   color: #03464f;
-//   margin-top: 20px;
-// }
-//
-// .eventPic {
-//   margin-top: 20px;
-//   margin-bottom: 20px;
-// }
-
 
 .LTtitle {
   color: #03464f;
@@ -208,6 +191,10 @@ iframe {
 
 #postFooter-washu {
   display: block;
+  max-width: 100%;
+}
+
+#postFooter-container {
   max-width: 500px;
 }
 
