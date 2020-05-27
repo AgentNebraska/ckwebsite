@@ -94,12 +94,12 @@ iframe {
   color: #1cae4f;
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 1130px) {
   #homeDisplay {
     height: 40vw;
   }
 }
-@media (max-width: 1119px) {
+@media (max-width: 1129px) {
   #homeDisplay {
     height: 70vw;
   }
@@ -142,13 +142,13 @@ iframe {
     position: absolute;
     top: 32px;
 }
-  @media (min-width: 1120px) {
+  @media (min-width: 1130px) {
     .top-left img, .top-right img {
       width: 300px
     }
   }
 
-  @media (min-width: 590px) and (max-width: 1119px) {
+  @media (min-width: 590px) and (max-width: 1129px) {
     .top-left img, .top-right img {
       width: 150px;
     }
