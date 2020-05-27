@@ -4,12 +4,7 @@
    src: url("librebaskerville-regular.otf");
  }
 
-nav {
-  img {
-    width: 120px;
-    height: 120px;
-  }
-}
+
 
 iframe {
   padding: 5px;
@@ -88,6 +83,20 @@ iframe {
   color: #03464f;
   // font-weight: bold;
   font-style: italic;
+}
+
+@media (min-width: 1130px) {
+  #navbar-logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 1129px) {
+  #navbar-logo {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 #volunteerLink {
