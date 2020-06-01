@@ -88,8 +88,11 @@ iframe {
     height: 80px;
   }
 }
-#volunteerLink {
+#navbarDropdown {
   color: #1cae4f;
+}
+#signUp{
+  font-weight: bold;
 }
 
 @media (min-width: 1130px) {
