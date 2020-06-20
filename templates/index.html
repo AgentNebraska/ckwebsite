@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+  <div class="container bodyText">
+    <p class="homeHeading">
+      THE CAMPUS KITCHEN X FOOD RECOVERY NETWORK AT WASHINGTON UNIVERSITY IN ST. LOUIS FIGHTS TO SIMULTANEOUSLY ELIMINATE FOOD INSECURITY AND FOOD WASTE IN OUR COMMUNITY.
+    </p>
+    <p>
+      St. Louis currently struggles to feed its community, with <a href="https://map.feedingamerica.org/county/2017/overall/missouri/county/st-louis-city">a food insecurity rate of 23.3%.</a> Nationwide, <a href="https://www.nrdc.org/sites/default/files/wasted-food-IP.pdf">40% of food is wasted,</a> feeding only the landfills. At CK x FRN WashU, we safely recover food and ingredients, use them to prepare meals, and deliver them to our clients, who serve the most food insecure groups in St. Louis. Together, we can divert food waste and fight hunger in our own community.
+  </div>
+
+  <div id="flyers" class="container">
+    <div class="row">
+      <div class="col-md">
+        <a href="https://www.foodrecoverynetwork.org"><img src="{{ url_for('static', filename='Images/divertfoodwaste.png') }}" class="img-fluid" alt="Responsive image"></a>
+      </div>
+      <div class="col-md">
+        <a href="https://www.foodrecoverynetwork.org/"><img src="{{ url_for('static', filename='Images/bemoresustainable.png') }}" class="img-fluid" alt="Responsive image"></a>
+      </div>
+      <div class="col-md">
+        <a href="https://www.foodrecoverynetwork.org/"><img src="{{ url_for('static', filename='Images/buildcommunity.png') }}" class="img-fluid" alt="Responsive image"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container bodyText">
+    <p class="homeHeading">
+      HOW DOES IT WORK?
+    </p>
+    <p>
+      Our operations are split into three main categories: (1) <b>Recovery</b>, (2) <b>Cooking</b>, and (3) <b>Delivery</b>. All three are organized by our student organization's Leadership Team and carried out by our WashU Shift Captains, who are experts in every process and lead each individual shift to ensure its success. On Cooking Shifts, we also rely on <a href="volunteer.html">volunteers</a>, who can sign up online to lend a helping hand on any day that works for them. While our LT and Shift Captains are composed entirely of WashU students, all members of the community are welcome to volunteer for a Cooking Shift, with no prior experience required!
+    </p>
+  </div>
+  <div class="container">
+    <div class="homeHeading-2">
+      1. RECOVERY
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="bodyText">
+          Recovery is the most immediate way that we can reverse food waste on a large scale. At CK x FRN WashU, we partner with <a href="https://www.operationfoodsearch.org/">Operation Food Search</a>, a St. Louis non-profit and the largest distributor of free food in the bi-state region. They coordinate with enormous grocery retailers like Schnucks and Dierbergs to redistribute foods that are still edible and nourishing but can no longer be sold. In addition, we recover pre-packaged food items from Bon Appe&#769;tit, WashU's on-campus food and catering service, redistributing and repurposing the items that our Shift Captains evaluate as suitable and nutritious. To supplement these items and ensure we have all the required ingredients for Cooking Shifts, we purchase foods in bulk from Restaurant Depot and Schnucks on a regular basis. These various sources allow us to practice large-scale food recovery and to purposefully obtain food items to feed our community.
+        </div>
+        <a href="https://www.operationfoodsearch.org/"><img id="OFS-photo" src="https://www.operationfoodsearch.org/wp-content/uploads/2016/10/OperationFoodSearch-logo.jpg" class="img-fluid shadow p-1 rounded my-3"></a>
+
+      </div>
+      <div class="col-md-4">
+        <img id="pickupShift-photo" src="{{ url_for('static', filename='Images/pickupShift.JPG') }}" class="img-fluid shadow p-1 rounded" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="homeHeading-2">
+      2. COOKING
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="bodyText">
+          Cooking is how we transform recovered ingredients into nourishing meals to feed our community. Each Cooking Shift is led by three Shift Captains, who ensure that every meal is suitable for its respective client, balancing factors such as food allergies, the inclusion of the three components for a healthy meal (protein, vegetable, starch), and portioning for the appropriate number of people that each client serves. Moreover, at least one Shift Captain on each Cooking Shift is a <a href="https://www.servsafe.com/ServSafe-Food-Handler">ServSafe Food Handler Certificate Recipient</a>, who verifies that every prepared food item is safe for consumption. In addition, up to six <a href="volunteer.html">volunteers</a> participate in every Cooking Shift, where they can play an active role in our efforts to feed our community.
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="{{ url_for('static', filename='Images/celery.JPG') }}" class="img-fluid shadow p-1 rounded" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="homeHeading-2">
+      3. DELIVERY
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="bodyText">
+          Once meals are prepared, we personally deliver them to <a href="ourclients.html">our clients</a>. Our Shift Captains practice food transportation practices outlined by OSHA and the National Restaurant Association to ensure the food safely reaches its recipients without contamination. They represent CK x FRN WashU in the greater St. Louis community, coordinating directly with our clients to make sure food arrives at the right location on time. On Delivery Shifts, we are able to connect directly with the people we serve and witness our efforts come together.
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img id="delivery-photo" src="{{ url_for('static', filename='Images/cooking-done.JPG') }}" class="img-fluid shadow p-1 rounded" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+{% endblock %}

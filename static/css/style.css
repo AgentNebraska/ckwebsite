@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@font-face {
+  font-family: LibreBaskerville;
+  src: url("librebaskerville-regular.otf");
+}
+iframe {
+  padding: 5px;
+  margin-top: 30px;
+  background-color: #03464f;
+}
+
+@media (min-width: 1120px) {
+  iframe {
+    width: 500px;
+    height: 400px;
+  }
+}
+.homeHeading {
+  color: #1cae4f;
+  font-weight: bold;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
+.homeHeading-2 {
+  color: #03464f;
+  font-weight: bold;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
+.homeText {
+  color: #03464f;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footerHeading {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.questionWord {
+  font-size: 18px;
+}
+
+.bodyText {
+  padding-top: 20px;
+  color: #03464f;
+}
+
+.footerSpace {
+  margin-top: 40px;
+  width: 100vw;
+  background-color: #F3F3F3;
+}
+
+.col-md img {
+  width: 100%;
+}
+
+.footerMidBorder {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .footerMid {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+  }
+}
+.LTtitle {
+  color: #03464f;
+  font-style: italic;
+}
+
+@media (min-width: 1130px) {
+  #navbar-logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media (max-width: 1129px) {
+  #navbar-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+#navbarDropdown {
+  color: #1cae4f;
+}
+#signUp{
+  font-weight: bold;
+}
+
+@media (min-width: 1130px) {
+  #homeDisplay {
+    height: 40vw;
+  }
+}
+@media (max-width: 1129px) {
+  #homeDisplay {
+    height: 70vw;
+  }
+}
+#homeDisplay {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+#homeDisplay #homeDisplayBackground, #homeDisplay #ourteamDisplayBackground, #homeDisplay #ourclientsDisplayBackground {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#homeDisplay #homeDisplayBackground {
+  object-position: 0 70%;
+  filter: brightness(50%);
+}
+#homeDisplay #ourteamDisplayBackground {
+  object-position: 0 0%;
+  filter: brightness(50%);
+}
+#homeDisplay #ourclientsDisplayBackground {
+  filter: brightness(60%);
+}
+#homeDisplay .top-left {
+  left: 32px;
+}
+#homeDisplay .top-right {
+  right: 32px;
+}
+#homeDisplay .top-left, #homeDisplay .top-right {
+  position: absolute;
+  top: 32px;
+}
+@media (min-width: 1130px) {
+  #homeDisplay .top-left img, #homeDisplay .top-right img {
+    width: 300px;
+  }
+}
+@media (min-width: 590px) and (max-width: 1129px) {
+  #homeDisplay .top-left img, #homeDisplay .top-right img {
+    width: 150px;
+  }
+}
+@media (max-width: 589px) {
+  #homeDisplay .top-left img, #homeDisplay .top-right img {
+    width: 113px;
+  }
+  #homeDisplay .top-right {
+    right: 16px;
+  }
+}
+#homeDisplay .centeredText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#homeDisplay h1, #homeDisplay h2 {
+  color: white;
+  font-family: "LibreBaskerville", sans-serif;
+  font-weight: bold;
+}
+@media (max-width: 650px) {
+  #homeDisplay h1 {
+    font-size: 18px;
+  }
+  #homeDisplay h2 {
+    font-size: 12px;
+  }
+}
+
+#OFS-photo {
+  max-width: 450px;
+  display: block;
+  margin: auto;
+}
+
+#pickupShift-photo, #delivery-photo {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+#flyers {
+  margin-bottom: 40px;
+}
+#flyers .col-md {
+  margin: 20px;
+}
+
+#postFooter-washu {
+  display: block;
+  max-width: 100%;
+}
+
+#postFooter-container {
+  max-width: 500px;
+}
+
+#footer {
+  text-align: center;
+  color: #4a4748;
+  background-color: #F3F3F3;
+}
+#footer h4 {
+  font-size: 1.5em;
+}
+#footer .col-md {
+  padding: 20px;
+}
+#footer .col-md a {
+  text-align: center;
+}
+#footer .socialmedia {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
