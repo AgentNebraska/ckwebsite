@@ -24,24 +24,24 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item{% if centeredText=='Fighting waste, feeding people.' %} active" {% else %}"{% endif %}>
             <a class="nav-link" href="{{ url_for('index') }}">Home<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item{% if centeredText=='Our Team' %} active" {% else %}"{% endif %}>
             <a class="nav-link" href="{{ url_for('ourteam') }}">Our Team</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item{% if centeredText=='Our Events' %} active" {% else %}"{% endif %}>
             <a class="nav-link" href="{{ url_for('ourevents') }}">Our Events</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ourclients.html">Our Clients</a>
+          <li class="nav-item{% if centeredText=='Our Clients' %} active" {% else %}"{% endif %}>
+            <a class="nav-link" href="{{ url_for('ourclients') }}">Our Clients</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Volunteer
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="volunteer.html">Info</a>
+              <a class="dropdown-item" href="{{ url_for('volunteer') }}">Info</a>
               <a class="dropdown-item" href="#" id="signUp">Sign Up</a>
             </div>
           </li>

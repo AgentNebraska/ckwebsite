@@ -24,3 +24,17 @@ def ourevents():
     backgroundID="homeDisplayBackground"
     centeredText="Our Events"
     return render_template("ourevents.html", displayBackground=displayBackground, backgroundID=backgroundID, centeredText=centeredText)
+
+@app.route("/ourclients")
+def ourclients():
+    displayBackground="Images/PnPwall.png"
+    backgroundID="ourclientsDisplayBackground"
+    centeredText="Our Clients"
+    return render_template("ourclients.html", displayBackground=displayBackground, backgroundID=backgroundID, centeredText=centeredText)
+
+@app.route("/volunteer")
+def volunteer():
+    displayBackground="Images/volunteersheaderpic.JPG"
+    backgroundID="homeDisplayBackground"
+    centeredText="Volunteer"
+    return render_template("volunteer.html", displayBackground=displayBackground, backgroundID=backgroundID, centeredText=centeredText)
