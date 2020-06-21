@@ -91,7 +91,8 @@ iframe {
 #navbarDropdown {
   color: #1cae4f;
 }
-#signUp{
+
+#signUp {
   font-weight: bold;
 }
 
@@ -164,6 +165,7 @@ iframe {
   color: white;
   font-family: "LibreBaskerville", sans-serif;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 @media (max-width: 650px) {
   #homeDisplay h1 {

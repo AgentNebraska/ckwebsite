@@ -2,8 +2,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-# need to fix formatting of displayBackground (right now it is in stlye.css)
-
 @app.route("/")
 def index():
     displayBackground="Images/bread.jpg"
